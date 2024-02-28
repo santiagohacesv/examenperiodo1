@@ -1,0 +1,98 @@
+
+/* No cambiar los estilos que aquí te dejo, solo debes complementar según las instrucciones
+del examen */
+
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&family=Gloock&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&family=Gloock&family=Mynerve&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    margin: auto;
+    padding: 80px;
+    background-color: lightblue; }
+
+.contenedor h1, h2{
+    padding-top: 30px;
+    padding-bottom: 20px; }
+
+.encabezado h2{
+    color: orangered;
+    height: 400px;
+    margin-left: 50px;
+    line-height: 400px;
+    font-size: 30px;
+    font-family: "Gloock", serif; }
+
+.contenido h2{ color: purple; }
+
+.contenido p{
+    width: 100%;
+    text-align: justify;
+    font-size: 25px; }
+
+.usos{
+    background-image: url("../img/imagen2.jpeg");
+    height: 600px;
+    color: aliceblue;
+    text-align: center;
+    line-height: 600px; }
+
+.contenido ol{
+    text-align: left;
+    font-size: 25px;
+    padding: 40px; }
+
+.sintaxis{
+    background-image: url("../img/imagen3.jpg");
+    height: 500px;
+    color: white;
+    line-height: 100vh; }
+
+.contenido ul{
+    text-align: left;
+    font-size: 25px;
+    padding: 40px; }
+
+.datos{
+    background-color: darkviolet;
+    border: 10px double;
+    color: aliceblue;
+    font-family: "Mynerve", cursive;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center; }
+
+.background{ 
+    background-size: cover; 
+    background-position: center;
+    width: 100%; }
+
+.contenido{ 
+    background-color: bisque; 
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px; }
+
+.encabezado{ 
+    padding: 0.1px; 
+    background-image: url("../img/imagen1.jpg");
+    height: 400px; }
+    
+.sintaxis{ 
+    line-height: 100vh; }
+       
+h4{ 
+    font-size: 24px; 
+    font-family: 'Gloock', serif; 
+    line-height: 500px; 
+    text-align: center; }
